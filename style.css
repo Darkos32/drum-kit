@@ -1,0 +1,82 @@
+body{
+    background-color: #283149;
+    font-family: 'Arvo',cursive;
+    text-align: center;
+}
+h1{
+    color: #DBEDF3;
+    font-size: 5rem;
+    text-shadow: 5px 0 #DA0463;
+    
+}
+
+button{
+    background-color: white;
+    border-style: solid;
+    border-color: #404B69;
+    border-radius: 10%;
+    border-width: 10px;
+    color: #DA0463;
+    font-family: 'Arvo',cursive;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 2;
+    margin: 10px;
+    outline: none;
+    height: 150px;
+    width: 150px;
+    text-shadow: 5px 0 #DBEDF3;
+}
+section{
+    margin: 10% auto;
+}
+
+
+/* Elementos da bateria */
+
+.drum{
+    
+}
+
+/* Tom 1 */
+.w{
+    background-image: url(./images/tom1.png);
+    
+}
+
+/* Tom 2 */
+.a{
+    background-image: url(./images/tom2.png);
+
+}
+
+/* Tom 3 */
+.s{
+    background-image: url(./images/tom3.png);
+}
+
+/* Tom 4 */
+.d{
+    background-image: url(./images/tom4.png);
+}
+
+/* Snare */
+.j{
+    background-image: url(./images/snare.png);
+}
+
+/* Crash */
+.k{
+    background-image: url(./images/crash.png);
+}
+
+/* Kick */
+.l{
+    background-image: url(./images/kick.png);
+}
+
+/* Drum Animations */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
